@@ -6,8 +6,8 @@ export interface TaskProps {
   id: string;
   isComplete: boolean;
   content: string;
-  onDelete: () => void;
-  onComplete: () => {};
+  onDelete: (onDelete: string) => void;
+  onComplete: (onComplete: string) => void;
 }
 
 export function Task({

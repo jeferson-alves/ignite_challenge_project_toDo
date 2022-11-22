@@ -4,13 +4,13 @@ import plus from "../../assets/plus.svg";
 import styles from "./Input.module.css";
 
 interface InputProps {
-  onSend: () => void;
+  onSend: (handleSubmit: any) => void;
 }
 
 export function Input({ onSend }: InputProps) {
   const [inputValue, setInputValue] = useState("");
 
-  const handleInputChange = () => {
+  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(event.target.value);
   };
 

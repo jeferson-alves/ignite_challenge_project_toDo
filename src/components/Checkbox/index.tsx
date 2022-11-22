@@ -4,7 +4,7 @@ import styles from "./Checkbox.module.css";
 
 interface CheckboxProps {
   isCheck?: boolean;
-  onClick: () => {};
+  onClick: () => void;
 }
 
 export function Checkbox({ isCheck, onClick }: CheckboxProps) {
