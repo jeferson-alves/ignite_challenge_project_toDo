@@ -1,0 +1,26 @@
+.deleteContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  height: 1.2rem;
+  min-height: 1.2rem;
+  width: 1.2rem;
+  min-width: 1.2rem;
+
+  cursor: pointer;
+
+  /* background-color: red; */
+  /* background-color: var(--green500); */
+}
+
+
+.trash:hover {
+  color: var(--danger);
+
+
+}
+
+.deleteContainer img {
+  /* color: red; */
+  /* background-color: green; */
+}

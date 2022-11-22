@@ -1,0 +1,49 @@
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid var(--blue);
+  border-radius: 999px;
+  height: 24px;
+  min-height: 24px;
+  width: 24px;
+  min-width: 24px;
+
+  transition: border-color, background-color 0.1s ;
+
+
+}
+
+.box:hover {
+  border-color: var(--blueDark);
+  background-color: var(--blueDarkHover);
+  cursor: pointer;
+}
+
+.boxChecked{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--purpleDark);
+
+  border: 2px solid var(--purpleDark);
+  border-radius: 999px;
+  height: 24px;
+  min-height: 24px;
+  width: 24px;
+  min-width: 24px;
+
+  transition: border-color, background-color 0.1s ;
+}
+
+.boxChecked:hover {
+  border-color: var(--purple);
+  background-color: var(--purple);
+  cursor: pointer;
+}
+
+.checked {
+  background-color: var(--purple);
+}

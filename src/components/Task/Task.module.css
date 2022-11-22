@@ -1,0 +1,28 @@
+.taskContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+
+  width: 100%;
+  background: var(--gray500);
+  padding: 1rem;
+  border-radius: 8px;
+  gap: 0.75rem;
+
+  border: 1px solid var(--gray400);
+
+  
+}
+
+.taskContent {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  color: var(--gray100);
+}
+
+.taskCompleted {
+  text-decoration-line: line-through;
+  color: var(--gray300);
+}
